@@ -7,7 +7,10 @@
 </div>
 
 ## Introdução
-<conteúdo>
+&emsp;A Amazon Elastic Compute Cloud (Amazon EC2) é um serviço de computação em nuvem que oferece capacidade de computação escalável na nuvem da Amazon Web Services (AWS). Com a EC2, os usuários podem lançar e gerenciar instâncias virtuais conforme necessário, permitindo flexibilidade e escalabilidade para atender às demandas de computação.
+
+&emsp;Neste relatório técnico, o objetivo principal será a inicialização de uma instância na Amazon EC2 e configurar o acesso seguro a essa instância usando a ferramenta PuTTY.
+
 
 ## Objetivo
 
@@ -102,7 +105,7 @@
 &emsp;Logo, conclui-se que todos os objetivos propostos foram alcançados com sucesso.
 
 ## Conclusão
-<conteúdo>
+&emsp;A capacidade de inicializar e acessar instâncias na Amazon EC2 de forma segura e eficiente é fundamental para aproveitar os benefícios da computação em nuvem. Este relatório técnico fornece uma visão geral dos passos necessários para alcançar esse objetivo, desde a configuração inicial, no website da AWS, até o acesso remoto seguro, pelo PuTTY.
 
 ## Referências
 1. CHECK POINTS SOLUTION. **What is AWS Security Groups**. Disponível em: <https://www.checkpoint.com/cyber-hub/cloud-security/what-is-aws-security-groups/#:~:text=An%20AWS%20security%20group%20acts>. Acesso em: 24 fev. 2024.  
