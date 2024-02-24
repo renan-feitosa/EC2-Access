@@ -7,7 +7,10 @@
 </div>
 
 ## Introdução
-<conteúdo>
+&emsp;A Amazon Elastic Compute Cloud (Amazon EC2) é um serviço de computação em nuvem que oferece capacidade de computação escalável na nuvem da Amazon Web Services (AWS). Com a EC2, os usuários podem lançar e gerenciar instâncias virtuais conforme necessário, permitindo flexibilidade e escalabilidade para atender às demandas de computação.
+
+&emsp;Neste relatório técnico, o objetivo principal será a inicialização de uma instância na Amazon EC2 e configurar o acesso seguro a essa instância usando a ferramenta PuTTY.
+
 
 ## Objetivo
 
@@ -73,7 +76,7 @@
   <sup>Fonte: Autoria Própria</sup>
 </div>
 
-&emsp; Após isso, a chave privada é inserida no painel SSH/Auth para a autenticação. Com isso, o PuTTY está configurado para usar uma chave privada específica para autenticação, garantindo um acesso seguro à instância remota. 
+&emsp;Após isso, a chave privada é inserida no painel SSH/Auth para a autenticação. Com isso, o PuTTY está configurado para usar uma chave privada específica para autenticação, garantindo um acesso seguro à instância remota. 
 
 <div align="center">
   <sub>Imagem 8 - Adicionando Pair Key no PuTTY</sub>
@@ -81,7 +84,7 @@
   <sup>Fonte: Autoria Própria</sup>
 </div>
 
-&emsp; Finalizando o processo, foi realizado um login através do console com "ec2-user" e a instância foi acessada com sucesso. 
+&emsp;Finalizando o processo, foi realizado um login através do console com "ec2-user" e a instância foi acessada com sucesso. 
 
 <div align="center">
   <sub>Imagem 9 - Print no Console</sub>
@@ -91,10 +94,18 @@
 
 
 ## Resultados
-<conteúdo>
+&emsp;Após seguir todos os passos descritos na seção anterior, os resultados alcançados incluem:
+
+1. **Inicialização da Instância EC2:** A instância na Amazon EC2 é criada e configurada com sucesso, incluindo a atribuição de um nome descritivo e a definição de um par de chaves público-privado.
+
+2. **Configuração do Acesso Seguro:** Utilizando a ferramenta PuTTY, as chaves privadas são configuradas para autenticação SSH, garantindo acesso seguro à instância remota.
+
+3. **Acesso à Instância Remota:** Após configurar corretamente o acesso no PuTTY, o login na instância remota é realizado com sucesso.
+
+&emsp;Logo, conclui-se que todos os objetivos propostos foram alcançados com sucesso.
 
 ## Conclusão
-<conteúdo>
+&emsp;A capacidade de inicializar e acessar instâncias na Amazon EC2 de forma segura e eficiente é fundamental para aproveitar os benefícios da computação em nuvem. Este relatório técnico fornece uma visão geral dos passos necessários para alcançar esse objetivo, desde a configuração inicial, no website da AWS, até o acesso remoto seguro, pelo PuTTY.
 
 ## Referências
 1. CHECK POINTS SOLUTION. **What is AWS Security Groups**. Disponível em: <https://www.checkpoint.com/cyber-hub/cloud-security/what-is-aws-security-groups/#:~:text=An%20AWS%20security%20group%20acts>. Acesso em: 24 fev. 2024.  
