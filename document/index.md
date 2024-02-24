@@ -10,10 +10,16 @@
 <conteúdo>
 
 ## Objetivo
-<conteúdo>
+
+&emsp;O objetivo do seguinte relatório técnico consiste em compreender e seguir os passos necessários para criar e configurar uma instância na Amazon EC2, incluindo nomear a instância, criar um par de chaves, configurar as regras de segurança, e iniciar a instância Além disso, é de suma importância entender como configurar ferramentas como o PuTTY para acessar a instância de forma segura, utilizando chaves privadas para autenticação.
+
 
 ## Materiais
-<conteúdo>
+1. **Amazon EC2:** Serviço de nuvem da Amazon que permite a criação e gerenciamento de instâncias virtuais.
+
+2. **PuTTY:** Uma ferramenta popular para acesso remoto a servidores via SSH em sistemas Windows. É utilizado para configurar e estabelecer conexões seguras com instâncias na Amazon EC2.
+
+3. **Chaves Públicas e Privadas:** Utilizadas para autenticação durante o acesso às instâncias. A chave privada é inserida na ferramenta PuTTY para autenticação, enquanto a chave pública é armazenada na instância EC2 para permitir o acesso.
 
 ## Método
 
