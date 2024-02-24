@@ -73,7 +73,7 @@
   <sup>Fonte: Autoria Própria</sup>
 </div>
 
-&emsp; Após isso, a chave privada é inserida no painel SSH/Auth para a autenticação. Com isso, o PuTTY está configurado para usar uma chave privada específica para autenticação, garantindo um acesso seguro à instância remota. 
+&emsp;Após isso, a chave privada é inserida no painel SSH/Auth para a autenticação. Com isso, o PuTTY está configurado para usar uma chave privada específica para autenticação, garantindo um acesso seguro à instância remota. 
 
 <div align="center">
   <sub>Imagem 8 - Adicionando Pair Key no PuTTY</sub>
@@ -81,7 +81,7 @@
   <sup>Fonte: Autoria Própria</sup>
 </div>
 
-&emsp; Finalizando o processo, foi realizado um login através do console com "ec2-user" e a instância foi acessada com sucesso. 
+&emsp;Finalizando o processo, foi realizado um login através do console com "ec2-user" e a instância foi acessada com sucesso. 
 
 <div align="center">
   <sub>Imagem 9 - Print no Console</sub>
@@ -91,7 +91,15 @@
 
 
 ## Resultados
-<conteúdo>
+&emsp;Após seguir todos os passos descritos na seção anterior, os resultados alcançados incluem:
+
+1. **Inicialização da Instância EC2:** A instância na Amazon EC2 é criada e configurada com sucesso, incluindo a atribuição de um nome descritivo e a definição de um par de chaves público-privado.
+
+2. **Configuração do Acesso Seguro:** Utilizando a ferramenta PuTTY, as chaves privadas são configuradas para autenticação SSH, garantindo acesso seguro à instância remota.
+
+3. **Acesso à Instância Remota:** Após configurar corretamente o acesso no PuTTY, o login na instância remota é realizado com sucesso.
+
+&emsp;Logo, conclui-se que todos os objetivos propostos foram alcançados com sucesso.
 
 ## Conclusão
 <conteúdo>
